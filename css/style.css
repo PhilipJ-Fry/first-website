@@ -1,0 +1,97 @@
+body {
+  background: #c7e3f2;
+  font-family: 'Inconsolata', monospace;
+  margin: 0;
+}
+
+div {
+  min-height: 100vh;
+  width: 100vw;
+}
+h1, h2 {
+  text-align: center;
+}
+
+h1 {
+  font-size: 5em;
+  font-family: 'Permanent Marker', cursive;
+}
+
+h2 {
+  font-size: 3em;
+  color: rgb(221,186,211);
+  font-weight: bold;
+  letter-spacing: -2px;
+}
+
+img {
+  display: flex;
+  padding: 20px;
+  margin: 0 auto;
+  border-radius: 130px;
+}
+
+p {
+  width: 67%;
+  margin: 10vh 10vw;
+  font-size: 2em;
+  letter-spacing: -1.7px;
+}
+
+div.contrast p {
+  text-align: center;
+}
+
+div.intro p {
+  padding-bottom: 10vh;
+  margin: auto;
+}
+
+a {
+  color: rgb(0,0,0);
+}
+
+ol {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 10%;
+  font-size: 3em;
+  display: flex;
+  justify-content: space-evenly;
+  color: white;
+  font-family: 'Permanent Marker', cursive;
+
+}
+ul {
+  list-style: none;
+  display: flex;
+}
+li {
+  margin: 0 20px;
+  transition: 0.6s ease;
+}
+
+li:hover {
+font-size: 1.2em;
+transition: 0.6s ease;
+}
+
+li#lower {
+  margin-top: 7%;
+}
+li#lowest {
+  margin-bottom: 14%;
+}
+
+div.contrast {
+  background-color: rgb(101, 123, 172);
+  color: rgb(255,255,255);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+div.welcome h2 {
+  font-size: 2.5em;
+}
